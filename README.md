@@ -229,3 +229,9 @@ Barber has been released for free. Similar themes cost around $29 on [ThemeFores
 
 ### Support
 Email <okay@samesies.io> if you need any additional support with Barber.
+
+
+### My Changes
+I have attributed the creator of svg file I have used. It is hardcoded in ````_includes/contact.html````.
+
+Disabled Disqus and sharing (include ````share.html````) in ````_layout/post.html````

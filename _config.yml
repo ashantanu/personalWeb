@@ -15,30 +15,32 @@ social:
   #- name: twitter
   #  url: https://twitter.com/thomasvaeth
   - name: instagram
-    url: https://www.instagram.com/thomas.vaeth/
-  #- name: linkedin
-  #  url: https://www.linkedin.com/in/thomasvaeth/
-  #- name: github
-  #  url: https://github.com/samesies
-  #- name: codepen
+    url: https://www.instagram.com/shaan._._/
+  - name: linkedin
+    url: https://www.linkedin.com/in/profileshantanu/
+  - name: github
+    url: https://github.com/ashantanu
+  #- name: envelope-o
+  #  url: a.shantanu08@gmail.com
+  #- name: email
   #  url: https://codepen.io/thomasvaeth/
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com/s/HkIo0nMb7
+contact_img: /assets/images/svg/contact.svg
+formcarry: https://formcarry.com/s/wvjZljusqYl
 
 # Disqus settings
-disqus: test-apkdzgmqhj
+disqus: #test-apkdzgmqhj
 
 # MailChimp settings
-mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
-mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
+#mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
+#mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Thomas Vaeth
-    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
-    url: http://thomasvaeth.com
+  - name: Shantanu Agarwal
+    bio: Shantanu Agarwal was born and raised in Jaipur. After studying at IIT Guwahati, he is now a quantitative strategist at Goldman Sachs in Bangalore.
+    url: http://ashantanu.github.io
 
 # Pagination settings
 pagination:

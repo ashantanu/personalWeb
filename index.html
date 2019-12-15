@@ -1,21 +1,20 @@
 ---
 layout: default
-pagination:
-  enabled: true
 ---
-<!-- The main content area -->
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
-
-      {% for post in paginator.posts %}
-
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
-
-      {% endfor %}
+<section class="post">
+  <div>
+    <div class="post__header section-padding--double">
+      <div class="grid-small section-padding">
+        <h2>Hello!</h2>
+      </div>
+     <div class="grid">
+        <div id="markdown">
+         	<blockquote>
+  				<p>My name is Shantanu Agarwal</p><p>I love all things about Maths, AI and Design</p>
+			</blockquote>
+        </div>
+      </div>
     </div>
-  </div>
+    </div>
+</section>
 
-  {% include pagination.html %}
-</div>
