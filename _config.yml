@@ -1,7 +1,7 @@
 # Site/SEO settings
 email: a.shantanu08@gmail.com
 baseurl: ""
-permalink: /:year/:month/:day/:title/
+permalink: /:title/ #/:year/:month/:day/:title/
 google_analytics: 
 
 name: Shantanu Agarwal
