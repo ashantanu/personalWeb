@@ -235,3 +235,20 @@ Email <okay@samesies.io> if you need any additional support with Barber.
 I have attributed the creator of svg file I have used. It is hardcoded in ````_includes/contact.html````.
 
 Disabled Disqus and sharing (include ````share.html````) in ````_layout/post.html````
+
+### Steps for me to Publish this:
+commit changes in this repository. 
+```
+git commit -m "message"
+git push origin
+```
+Build the site.
+```
+bundle exec jekyll build
+```
+Copy all content of ```_site``` folder. Change to the repo ```ashantanu.github.io```  and paste all the content here. Commit and push this.
+```
+git commit -m "message"
+git push origin
+```
+Refresh the webpage.
