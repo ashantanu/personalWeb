@@ -9,8 +9,8 @@ tags:
   - Art
 ---
 
-I started out with sketching anime characters as a kid, and explored by myself since then. With no formal training, I try as much as I can with different mediums that I can find.
+I started out with sketching anime characters as a kid and explored by myself since then. With no formal training, I try as much as I can with different mediums that I can find.
 
-Will be posting more of my artwork, like the recent Inktober'19 soon.
+I will be posting more of my artwork, like the recent Inktober'19 soon.
 
 ![sketch1](/assets/images/sketch4.jpg "sketch1")
