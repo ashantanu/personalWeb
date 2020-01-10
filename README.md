@@ -252,3 +252,8 @@ git commit -m "message"
 git push origin
 ```
 Refresh the webpage.
+
+To run locally
+```
+bundle exec jekyll serve
+```
