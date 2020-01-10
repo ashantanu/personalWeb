@@ -5,9 +5,9 @@ permalink: /:title/ #/:year/:month/:day/:title/
 google_analytics: G-D9B0BR8X6K
 
 name: Shantanu Agarwal
-title: Home
+title: Personal Page
 description: >
-  Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+  Personal page of Shantanu Agarwal
 url: ""
 twitter_username: 
 default_img: /assets/images/seo.jpg
