@@ -3,7 +3,7 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
 
   {% include head.html %}
 
