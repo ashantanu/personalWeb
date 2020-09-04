@@ -7,7 +7,6 @@ image: /assets/images/travel-map.jpg
 tags: 
   - Travel
   - World
-  - Culture
 ---
 
 > **Wanderlust:**
@@ -22,8 +21,8 @@ I hope to start a travel blog soon to share my experiences and help fellow trave
 
 And here are some travel highlights,
 * Skydived in New York and Prague.
-* Scuba at Havelock Island in Andaman and Nicobar group of Islands in India.
-* Saw 'Mona Lisa' after a terribly long line that took me over 2 hours.
+* Scuba at Havelock Island in Andaman and Nicobar group of Islands, India.
+* Saw THE 'Mona Lisa' after a terribly long line that took me over 2 hours.
 
 
 <span style="font-size:3mm;">\*Map created using [Visme](https://www.visme.co/).</span>

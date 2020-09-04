@@ -8,7 +8,7 @@ name: Shantanu Agarwal
 title: Home
 description: >
   Personal page of Shantanu Agarwal
-url: ""
+url: "https://ashantanu.github.io"
 twitter_username: 
 default_img: /assets/images/seo.jpg
 google_site_verification: k2IMmHbbYVVM7x2HWLl8QCOwJquBJr043YKJfI8JYBw
@@ -40,7 +40,7 @@ disqus: #test-apkdzgmqhj
 # Author settings
 author:
   - name: Shantanu Agarwal
-    bio: Shantanu Agarwal was born and raised in Jaipur. After studying at IIT Guwahati, he is now a quantitative strategist at Goldman Sachs in Bangalore.
+    bio: 
     url: http://ashantanu.github.io
 
 # Pagination settings
@@ -62,7 +62,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'The Barber Theme'
+    title: 'Shantanu'
     permalink: '/tag/:tag'
     slugify:
       mode: raw

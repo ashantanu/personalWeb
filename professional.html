@@ -1,16 +1,56 @@
 ---
-layout: page
-title: Professional Life
+layout: default
+title: Professional
 image: /assets/images/professional.jpg
 ---
-
+<!--
+#NEED TO SET LAYOUT=page for showing the image on top of the page
 <div id="pdf" style="height: 800px;"></div>
 <script src="/assets/js/pdfobject.min.js"></script>
 <script>
 PDFObject.embed("/assets/Shantanu_Resume.pdf", "#pdf");
 
 </script>
+-->
+<div class="posts">
+  <div class="grid-large">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
-<div class="grid section-padding">
-Eagerly waiting to add 'Deep Learning Specialization by Coursera' to my resume. One more course to go to complete this incredible 5 course series.
+      {% for post in paginator.posts %}
+
+        <!-- The tag below includes the markup for each post - partials/post-card.html -->
+        {% include post-card.html %}
+
+      {% endfor %}
+
+
+      <!-- ADD NOTES ONE BY ONE -->
+		<article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+		  <a class="posts__link" href="{{ '/assets/Shantanu_Resume.pdf' | prepend: site.baseurl }}" itemprop="url">
+	      <figure class="posts__img">
+	        <img src="{{ '/assets/images/notes/resume.png' | prepend: site.baseurl }}" alt="Resume" data-aos="fade-in" itemprop="image"/>
+	      </figure>
+		    <div>
+		      <h2 class="posts__text"><strong itemprop="name">Resume</strong></h2>
+		    </div>
+		  </a>
+		</article>
+
+	    <article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+		  <a class="posts__link" href="{{ '/notes/NN_Methods_for_NLP.html' | prepend: site.baseurl }}" itemprop="url">
+	      <figure class="posts__img">
+	        <img src="{{ '/assets/images/notes/nn_nlp.png' | prepend: site.baseurl }}" alt="Deep Learning for NLP" data-aos="fade-in" itemprop="image"/>
+	      </figure>
+		    <div>
+		      <h2 class="posts__text"><strong itemprop="name">Notes: Neural Network Methods for NLP</strong></h2>
+		    </div>
+		  </a>
+		</article>
+		<!-- NO NOTES BEYOND THIS -->
+
+
+    </div>
+  </div>
+
+  {% include pagination.html %}
 </div>
