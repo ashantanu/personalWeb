@@ -3,7 +3,7 @@ layout: post
 title: "Travel Diary"
 date: 2019-12-15
 description: 
-image: /assets/images/travel-map.jpg
+image: /assets/images/travel.png
 tags: 
   - Travel
   - World
